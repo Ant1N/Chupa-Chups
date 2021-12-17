@@ -1,3 +1,90 @@
 @media screen and (min-width: 1024px) {
 
+    .signUpPage {
+        /* display: flex; */
+        flex-direction: row;
+        background-color: black;
+    }
+
+    .signUpH2 {
+        font-size: 60px;
+        color: #FEFEFE;
+        letter-spacing: 3px;
+    }
+
+    .signUpH3{
+        font-size: 45px;
+        color: white;
+    }
+
+    .signUpP {
+        font-size: 35px;
+        color: #FCFCFC;
+
+    }
+
+    #bicycle2 {
+        /* top: 1197px; */
+        left: 985px;
+        width: 934px;
+        height: 660px;
+    }
+
+    #bicycle3 {
+        /* top: 1857px; */
+        left: 0px;
+        width: 983px;
+        height: 695px;
+    }
+
+    .signUp {
+        font-size: 35px;
+        color: white;
+    }
+
+    .signUpSvg{
+        width: 224px;
+        height: 64px;
+
+    }
+
+    .name {
+        font-size: 35px;
+        color: white;
+    }
+
+    .inputName {
+
+    }
+
+    .email {
+        font-size: 35px;
+        color: white;
+    }
+
+    .inputEmail {
+
+    }
+
+    .sendBtn {
+        background-color: #6DF529;
+        width: 300px;
+        height: 64px;
+        border-radius: 47px;
+        border-style: none;
+        font-size: 30px;
+        color: #141414;
+    }
+
+    .clearBtn {
+        background-color: black;
+        width: 300px;
+        height: 64px;
+        border: 3px solid #67E826;
+        border-radius: 47px;
+        font-size: 30px;
+        color: #67E826;
+       
+    }
+
 }
