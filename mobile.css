@@ -1,3 +1,45 @@
 @media screen and (max-width: 767px) {
+  /* Menu */
 
+  nav {
+    position: fixed;
+    top: 11px;
+    right: 16px;
+    z-index: 150;
+  }
+
+  nav .icon div {
+    width: 35px;
+    background-color: #333;
+    height: 5px;
+    margin: 6px;
+    border-radius: 8px;
+  }
+
+  .expanded-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 100vh;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-shadow: 0px 3px #cbc9c0;
+    line-height: 1.6;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+
+  .expanded-menu li:hover span {
+    border-bottom: 7px solid #d200a2;
+  }
+
+  .disappear {
+    visibility: hidden;
+  }
 }
