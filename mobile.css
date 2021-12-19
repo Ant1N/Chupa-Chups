@@ -1,3 +1,32 @@
 @media screen and (max-width: 767px) {
+  /* Video Section */
+  .videoPage {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-weight: 100;
+  }
 
+  .videoPage h1 {
+    padding-top: 2rem;
+  }
+  .videoPage h2,
+  .videoPage h3 {
+    font-weight: 100;
+  }
+  h3.under-video {
+    font-weight: 800;
+    padding: 0rem;
+    color: black;
+    margin-bottom: 1rem;
+  }
+  .video-frame {
+    background-color: white;
+    padding: 1rem;
+    display: inline-block;
+    margin: 3rem;
+    box-shadow: 4px 3px 8px 1px #68a583;
+    -webkit-box-shadow: 4px 3px 8px 1px #68a583;
+  }
 }
