@@ -1,69 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Source+Sans+Pro:wght@300;400&display=swap');
+
+
 @media screen and (min-width: 1024px) {
 
     .signUpPage {
-        /* display: flex; */
-        flex-direction: row;
         background-color: black;
+        display: flex;
+        margin: 0;
+    }
+
+    .text {
+        position: relative;
+        top: 100px;
+        height: 646px;
+    }
+
+    .citatText {
+        align-items: flex-start;
     }
 
     .signUpH2 {
         font-size: 60px;
         color: #FEFEFE;
         letter-spacing: 3px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        position: relative;
+        left: 135px;
+        width: 759px;
     }
 
     .signUpH3{
         font-size: 45px;
         color: white;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        position: relative;
+        left: 135px;
+        width: 759px;
     }
 
     .signUpP {
         font-size: 35px;
         color: #FCFCFC;
-
+        width: 719px;
+        height: 132px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 200;
+        position: relative;
+        left: 135px;
+        width: 719px;
     }
 
-    #bicycle2 {
-        /* top: 1197px; */
+    #bicycle3 {
         left: 985px;
         width: 934px;
         height: 660px;
     }
 
-    #bicycle3 {
-        /* top: 1857px; */
+    #bicycle2 {
         left: 0px;
         width: 983px;
         height: 695px;
     }
 
+    .signUpText {
+        display: flex;
+        justify-content: center;
+    }
+
     .signUp {
-        font-size: 35px;
         color: white;
+        font-size: 35px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 300;
+        position: relative;
+        text-align: center;
+        top: 60px;
     }
 
     .signUpSvg{
-        width: 224px;
-        height: 64px;
+        width: 360px;
+        height: 200px;
+        position: relative;
+        top: 20px;
+        right: 20px;
+    }
 
+    .inputField {
+        text-align: center;
     }
 
     .name {
         font-size: 35px;
         color: white;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 300;
+        position: relative;
+        right: 284px;
+        top: 30px;
     }
 
     .inputName {
-
+        width: 646px;
+        height: 75px;
     }
 
     .email {
         font-size: 35px;
         color: white;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 300;
+        position: relative;
+        right: 284px;
+        bottom: 15px;
     }
 
     .inputEmail {
-
+        width: 646px;
+        height: 75px;
+        position: relative;
+        bottom: 45px;
     }
 
     .sendBtn {
@@ -74,6 +131,9 @@
         border-style: none;
         font-size: 30px;
         color: #141414;
+        position: relative;
+        right: 24px;
+        top: 25px;
     }
 
     .clearBtn {
@@ -84,7 +144,10 @@
         border-radius: 47px;
         font-size: 30px;
         color: #67E826;
-       
+        position: relative;
+        position: relative;
+        left: 24px;
+        top: 25px;
     }
 
 }
