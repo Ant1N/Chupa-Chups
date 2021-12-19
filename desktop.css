@@ -3,8 +3,11 @@
 
 @media screen and (min-width: 1024px) {
 
-    .signUpPage {
+    body {
         background-color: black;
+    }
+
+    .signUpPage {
         display: flex;
         margin: 0;
     }
@@ -46,7 +49,7 @@
         width: 719px;
         height: 132px;
         font-family: 'Source Sans Pro', sans-serif;
-        font-weight: 200;
+        font-weight: 400;
         position: relative;
         left: 135px;
         width: 719px;
@@ -67,6 +70,8 @@
     .signUpText {
         display: flex;
         justify-content: center;
+        position: relative;
+        left: 30px;
     }
 
     .signUp {
@@ -80,15 +85,17 @@
     }
 
     .signUpSvg{
-        width: 360px;
-        height: 200px;
+        width: 300px;
+        height: 140px;
         position: relative;
-        top: 20px;
+        top: 50px;
         right: 20px;
     }
 
     .inputField {
         text-align: center;
+        position: relative;
+        bottom: 25px;
     }
 
     .name {
@@ -136,6 +143,10 @@
         top: 25px;
     }
 
+    .sendBtn:hover {
+        background-color:#4EAE1E ;
+    }
+
     .clearBtn {
         background-color: black;
         width: 300px;
@@ -148,6 +159,10 @@
         position: relative;
         left: 24px;
         top: 25px;
+    }
+
+    .clearBtn:hover {
+        border: 3px solid #4EAE1E;
     }
 
 }
