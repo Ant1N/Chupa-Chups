@@ -1,3 +1,44 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Reset */
 
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Hamburger menu */
+
+  #hamburger-icon,
+  .disappear {
+    visibility: hidden;
+    height: 0px;
+  }
+  .video-page {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-weight: 100;
+  }
+  .video-page h1 {
+    padding-top: 2rem;
+  }
+  .video-page h2,
+  .video-page h3 {
+    font-weight: 100;
+  }
+  h3.under-video {
+    font-weight: 800;
+    padding: 0rem;
+    color: black;
+    margin-bottom: 1rem;
+  }
+  .video-frame {
+    background-color: white;
+    padding: 1rem;
+    display: inline-block;
+    margin: 3rem;
+    box-shadow: 4px 3px 8px 1px #68a583;
+    -webkit-box-shadow: 4px 3px 8px 1px #68a583;
+  }
 }
