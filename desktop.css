@@ -1,4 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Source+Sans+Pro:wght@300;400&display=swap');
+
 @media screen and (min-width: 1024px) {
+
+  /* Video Section */
+  .videoPage {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-weight: 100;
+  }
+  .videoPage h1 {
+    padding-top: 2rem;
+    font-family: calder-dark-grit-shadow, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 102px;
+    color: #f01f14;
+  }
+
+  .videoPage h2 {
+    font-size: 54px;
+  }
+
+  .videoPage h3 {
+    font-size: 45px;
+  }
+
+  .videoPage h2,
+  .videoPage h3 {
+    font-weight: 100;
+    color: #fcfcfc;
+  }
+
+  h3.under-video {
+    font-weight: 200;
+    font-size: 44px;
+    padding: 0rem;
+    color: white;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+
+  h3.under-video .raptor {
+    font-family: calder-dark-grit-shadow, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #f01f14;
+  }
+  .video-frame {
+    padding: 1rem;
+    display: inline-block;
+    margin: 3rem;
+  }
+
+  .youtube-video {
+    min-height: 608px;
+    min-width: 912px;
+  }
+
+  /* Sign Up */
+
+  body {
+    background-color: black;
+  }
+
+  .signUpPage {
+    display: flex;
+    margin: 0;
+  }
+
+  .text {
+    position: relative;
+    top: 100px;
+    height: 646px;
+  }
+
+  .citatText {
+    align-items: flex-start;
+  }
+
+  .signUpH2 {
+    font-size: 60px;
+    color: #fefefe;
+    letter-spacing: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    position: relative;
+    left: 135px;
+    width: 759px;
+  }
+
+  .signUpH3 {
+    font-size: 45px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    position: relative;
+    left: 135px;
+    width: 759px;
+  }
+
+  .signUpP {
+    font-size: 35px;
+    color: #fcfcfc;
+    width: 719px;
+    height: 132px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    position: relative;
+    left: 135px;
+    width: 719px;
+  }
+
+  #bicycle3 {
+    left: 985px;
+    width: 934px;
+    height: 660px;
+  }
+
+  #bicycle2 {
+    left: 0px;
+    width: 983px;
+    height: 695px;
+  }
+
+  .signUpText {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 30px;
+  }
+
+  .signUp {
+    color: white;
+    font-size: 35px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    position: relative;
+    text-align: center;
+    top: 60px;
+  }
+
+  .signUpSvg {
+    width: 300px;
+    height: 140px;
+    position: relative;
+    top: 50px;
+    right: 20px;
+  }
+
+  .inputField {
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+  }
+
+  .name {
+    font-size: 35px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    position: relative;
+    right: 284px;
+    top: 30px;
+  }
+
+  .inputName {
+    width: 646px;
+    height: 75px;
+  }
+
+  .email {
+    font-size: 35px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    position: relative;
+    right: 284px;
+    bottom: 15px;
+  }
+
+  .inputEmail {
+    width: 646px;
+    height: 75px;
+    position: relative;
+    bottom: 45px;
+  }
+
+  .sendBtn {
+    background-color: #6df529;
+    width: 300px;
+    height: 64px;
+    border-radius: 47px;
+    border-style: none;
+    font-size: 30px;
+    color: #141414;
+    position: relative;
+    right: 24px;
+    top: 25px;
+  }
+
+  .sendBtn:hover {
+    background-color: #4eae1e;
+  }
+
+  .clearBtn {
+    background-color: black;
+    width: 300px;
+    height: 64px;
+    border: 3px solid #67e826;
+    border-radius: 47px;
+    font-size: 30px;
+    color: #67e826;
+    position: relative;
+    position: relative;
+    left: 24px;
+    top: 25px;
+  }
+
+  .clearBtn:hover {
+    border: 3px solid #4eae1e;
+
   /* Reset */
 
   body {
@@ -11,5 +235,6 @@
   .disappear {
     visibility: hidden;
     height: 0px;
+
   }
 }
