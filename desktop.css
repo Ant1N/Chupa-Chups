@@ -64,6 +64,8 @@
 
   body {
     background-color: black;
+    margin: 0;
+    padding: 0;
   }
 
   .signUpPage {
@@ -222,13 +224,11 @@
 
   .clearBtn:hover {
     border: 3px solid #4eae1e;
+  }
 
   /* Reset */
 
-  body {
-    margin: 0;
-    padding: 0;
-  }
+ 
 
   /* Hamburger Menu */
   #hamburger-icon,
