@@ -1,5 +1,4 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-
   .videoPage {
     text-align: center;
     background-color: black;
@@ -26,7 +25,6 @@
   .videoPage h3 {
     font-size: 27px;
   }
-
 
   /* Reset */
 
@@ -62,7 +60,6 @@
     padding: 0rem;
     color: black;
     margin-bottom: 1rem;
-
     font-size: 35px;
   }
 
@@ -77,9 +74,6 @@
   .youtube-video {
     min-height: 424px;
     min-width: 636px;
-  }
-
-
   }
 
   .video-frame {

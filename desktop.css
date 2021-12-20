@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Source+Sans+Pro:wght@300;400&display=swap');
 
 @media screen and (min-width: 1024px) {
-
   /* Video Section */
   .videoPage {
     text-align: center;
@@ -53,6 +52,7 @@
     padding: 1rem;
     display: inline-block;
     margin: 3rem;
+    background-color: black;
   }
 
   .youtube-video {
@@ -222,6 +222,7 @@
 
   .clearBtn:hover {
     border: 3px solid #4eae1e;
+  }
 
   /* Reset */
 
@@ -235,6 +236,5 @@
   .disappear {
     visibility: hidden;
     height: 0px;
-
   }
 }

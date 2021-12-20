@@ -1,5 +1,4 @@
 @media screen and (max-width: 767px) {
-
   /* Video Section */
   .videoPage {
     text-align: center;
@@ -61,7 +60,7 @@
   .youtube-video {
     min-height: 234px;
     min-width: 350px;
-
+  }
   /* Reset */
 
   body {
@@ -159,6 +158,5 @@
 
   .disappear {
     visibility: hidden;
-
   }
 }
