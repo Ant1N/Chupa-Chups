@@ -1,4 +1,6 @@
- @media screen and (min-width: 1024px) {   
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Source+Sans+Pro:wght@300;400&display=swap');
+
+@media screen and (min-width: 1024px) {   
      div header{
         position:relative;
         top: 0px;
@@ -42,8 +44,9 @@
         display: inline;
         height: 43px;
         text-align: left;
-        font: normal normal 600 30px/43px Source Sans Pro;
-        
+        /* font: normal normal 600 30px/43px Source Sans Pro; */
+        font-family: 'Source Sans Pro';
+        font-size: 600;
         letter-spacing: 1.2px;
         color: #6DF529;
         opacity: 1;
