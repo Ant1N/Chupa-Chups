@@ -1,4 +1,5 @@
 @media screen and (max-width: 767px) {
+
   /* Video Section */
   .videoPage {
     text-align: center;
@@ -60,5 +61,104 @@
   .youtube-video {
     min-height: 234px;
     min-width: 350px;
+
+  /* Reset */
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Hamburger Menu */
+  #main-menu,
+  #hamburger-menu {
+    display: none;
+  }
+
+  #hamburger-icon,
+  .show {
+    display: block;
+  }
+
+  #hamburger-icon,
+  #hamburger-menu-cross,
+  #expanded-men {
+    color: #6df529;
+  }
+
+  #hamburger-icon {
+    font-size: 40px;
+    position: fixed;
+    top: 11px;
+    right: 16px;
+    z-index: 150;
+  }
+
+  #hamburger-menu-cross {
+    font-size: 40px;
+    position: fixed;
+    top: 11px;
+    right: 16px;
+    z-index: 150;
+  }
+
+  #hamburger-icon div {
+    width: 35px;
+    background-color: #333;
+    height: 5px;
+    margin: 6px;
+    border-radius: 8px;
+  }
+
+  #expanded-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 50vh;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 1.6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+
+  #expanded-menu li {
+    list-style-type: none;
+  }
+
+  #expanded-menu li:hover span {
+    border-bottom: 7px solid #d200a2;
+  }
+
+  .wrapper,
+  #expanded-menu {
+    font-family: 'Source Sans Pro';
+    font-size: 25px;
+    font-weight: 400;
+
+    color: #6df529;
+  }
+
+  #expanded-menu {
+    background-color: black;
+  }
+
+  #expanded-menu a {
+    text-decoration: none;
+    color: #6df529;
+  }
+
+  #expanded-menu a:hover {
+    border-bottom: 3px solid white;
+  }
+
+  .disappear {
+    visibility: hidden;
+
   }
 }
