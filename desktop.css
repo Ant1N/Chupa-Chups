@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Source+Sans+Pro:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
 
-@media screen and (min-width: 1024px) {   
-     div header{
+@media screen and (min-width: 1024px) {  
+    div header{
         position:relative;
         top: 0px;
         left: 0px;
@@ -13,61 +13,33 @@
         justify-content: space-between;
         
     } 
-    .theRaptorStory{
-        position:absolute;
-        top:59px;
-        bottom: 34px;
-        right:551px;
-        width:272px
-    }
-    .aboutUs{
-        position:absolute;
-        top:59px;
-        bottom: 34px;
-        right:298px;
-        width: 141px;
-    }
-    .contact{
-        position:absolute;
-        top:59px;
-        bottom: 34px;
-        right:62px;
-        width: 128px;
-    } 
-    div ul{
-        padding:0px;
-        margin:0px;
-        width:823px;
-    }
     
-     div ul li{
-        display: inline;
-        height: 43px;
+    /* .homePageText{
+        position:relative;
+        top: 288px;
+        left: 708px;
+        width: 504px;
+        height: 86px;
+        font-family:  'Source Sans Pro', sans-serif; 
+        font-weight: 400;
+        font-size: 68px;
+        background-color: red;
         text-align: left;
-        /* font: normal normal 600 30px/43px Source Sans Pro; */
-        font-family: 'Source Sans Pro';
-        font-size: 600;
-        letter-spacing: 1.2px;
-        color: #6DF529;
+        letter-spacing: 3.4px;
+        color: #FCFCFC;
         opacity: 1;
-        
-    };  
-
- 
-
-   .raptorHomeOne{
-        position:absolute;
-        top: 40px;
-        left: 53px;  
-        width: 274px;
-        height: 80px;
-        
-    }; 
-
+    }; */
+    .raptorHomeTwo{
+        position:relative;
+        top: 336px;
+        left: 395px;
+        width: 1131px;
+        height: 326px;
+    };
 
     /* .homeButton{
         background: #6DF529 0% 0% no-repeat padding-box;
-        position:fixed;
+        position:relative;
         top: 659px;
         left: 694px;
         width: 532px;
@@ -75,16 +47,10 @@
         border-radius: 92px;
         opacity: 1;
         text-align: center;
-        font: normal normal bold 44px/55px Source Sans Pro; 
+        font-family:  'Source Sans Pro', sans-serif; 
+        font-weight: 700;
+        font-size: 44px;
         letter-spacing: 0px;
         color: #141414;
     } */
-
-    /* .raptorHomeTwo {
-        top: 336px;
-        left: 395px;
-        width: 1131px;
-        height: 326px;
-    } */
-
-} 
+}
