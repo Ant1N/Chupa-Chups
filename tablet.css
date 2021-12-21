@@ -190,7 +190,6 @@
     font-size: 27px;
   }
 
-
   /* Reset */
 
   body {
@@ -225,7 +224,6 @@
     padding: 0rem;
     color: black;
     margin-bottom: 1rem;
-
     font-size: 35px;
   }
 
@@ -241,7 +239,6 @@
     min-height: 424px;
     min-width: 636px;
   }
-
 
   .video-frame {
     background-color: white;
