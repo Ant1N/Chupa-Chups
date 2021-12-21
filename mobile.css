@@ -1,3 +1,162 @@
 @media screen and (max-width: 767px) {
+  /* Video Section */
+  .videoPage {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-weight: 100;
+  }
 
+  .videoPage h1 {
+    padding-top: 2rem;
+    font-family: calder-dark-grit-shadow, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 39px;
+    color: #f01f14;
+  }
+
+  .videoPage h1 {
+    padding-top: 2rem;
+  }
+  .videoPage h2,
+  .videoPage h3 {
+    font-weight: 100;
+  }
+
+  .videoPage h2 {
+    font-size: 20px;
+  }
+
+  .videoPage h3 {
+    font-size: 17px;
+  }
+
+  h3.under-video {
+    font-weight: 800;
+    padding: 0rem;
+    color: black;
+    margin-bottom: 1rem;
+    font-size: 19px;
+  }
+
+  h3.under-video .raptor {
+    font-family: calder-dark-grit-shadow, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    color: #f02016;
+  }
+
+  .video-frame {
+    background-color: white;
+    padding: 1rem;
+    display: inline-block;
+    margin: 3rem;
+    box-shadow: 4px 3px 8px 1px #68a583;
+    -webkit-box-shadow: 4px 3px 8px 1px #68a583;
+  }
+  .youtube-video {
+    min-height: 234px;
+    min-width: 350px;
+  }
+  /* Reset */
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Hamburger Menu */
+  #main-menu,
+  #hamburger-menu {
+    display: none;
+  }
+
+  #hamburger-icon,
+  .show {
+    display: block;
+  }
+
+  #hamburger-icon,
+  #hamburger-menu-cross,
+  #expanded-men {
+    color: #6df529;
+  }
+
+  #hamburger-icon {
+    font-size: 40px;
+    position: fixed;
+    top: 11px;
+    right: 16px;
+    z-index: 150;
+  }
+
+  #hamburger-menu-cross {
+    font-size: 40px;
+    position: fixed;
+    top: 11px;
+    right: 16px;
+    z-index: 150;
+  }
+
+  #hamburger-icon div {
+    width: 35px;
+    background-color: #333;
+    height: 5px;
+    margin: 6px;
+    border-radius: 8px;
+  }
+
+  #expanded-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 50vh;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 1.6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+
+  #expanded-menu li {
+    list-style-type: none;
+  }
+
+  #expanded-menu li:hover span {
+    border-bottom: 7px solid #d200a2;
+  }
+
+  .wrapper,
+  #expanded-menu {
+    font-family: 'Source Sans Pro';
+    font-size: 25px;
+    font-weight: 400;
+
+    color: #6df529;
+  }
+
+  #expanded-menu {
+    background-color: black;
+  }
+
+  #expanded-menu a {
+    text-decoration: none;
+    color: #6df529;
+  }
+
+  #expanded-menu a:hover {
+    border-bottom: 3px solid white;
+  }
+
+  .disappear {
+    visibility: hidden;
+  }
 }

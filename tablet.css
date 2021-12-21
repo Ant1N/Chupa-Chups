@@ -1,3 +1,87 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  .videoPage {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-weight: 100;
+  }
 
+  .videoPage h1 {
+    padding-top: 2rem;
+    font-family: calder-dark-grit-shadow;
+    color: #f01f14;
+    font-size: 64px;
+    font-weight: 100;
+  }
+  .videoPage h2,
+  .videoPage h3 {
+    font-weight: 100;
+  }
+  .videoPage h2 {
+    font-size: 33px;
+  }
+
+  .videoPage h3 {
+    font-size: 27px;
+  }
+
+  /* Reset */
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Hamburger menu */
+
+  #hamburger-icon,
+  .disappear {
+    visibility: hidden;
+    height: 0px;
+  }
+  .video-page {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-weight: 100;
+  }
+  .video-page h1 {
+    padding-top: 2rem;
+  }
+  .video-page h2,
+  .video-page h3 {
+    font-weight: 100;
+  }
+
+  h3.under-video {
+    font-weight: 800;
+    padding: 0rem;
+    color: black;
+    margin-bottom: 1rem;
+    font-size: 35px;
+  }
+
+  h3.under-video .raptor {
+    font-family: calder-dark-grit-shadow, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    color: #f02016;
+  }
+
+  .youtube-video {
+    min-height: 424px;
+    min-width: 636px;
+  }
+
+  .video-frame {
+    background-color: white;
+    padding: 1rem;
+    display: inline-block;
+    margin: 3rem;
+    box-shadow: 4px 3px 8px 1px #68a583;
+    -webkit-box-shadow: 4px 3px 8px 1px #68a583;
+  }
 }
