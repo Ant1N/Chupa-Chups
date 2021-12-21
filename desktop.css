@@ -7,7 +7,7 @@
 
   /*home page*/
   .homePage1{
-    margin:0;
+    margin: 0;
     position: relative;
     top: -159px;
     left: 0px;
@@ -19,7 +19,7 @@
   }
 
   .homePage1 header{
-    position:relative;
+    position: relative;
     top: 159px;
     left: 0px;
     width: 1919px;
@@ -31,7 +31,7 @@
   }
 
   .raptorHome1{
-    position:absolute;
+    position: absolute;
     top: 40px;
     left: 53px;  
     width: 274px;
@@ -44,10 +44,11 @@
     text-align: left;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
-    font-size:30px;
-    letter-spacing: 1.2px;
+    font-size: 1.875rem;;
+    letter-spacing: 0.075rem;
     color: #6DF529;
     opacity: 1;
+    text-transform: uppercase;
   }
 
   .homePage1 ul li:hover{
@@ -55,31 +56,31 @@
   }
 
   .meny1{
-    position:absolute;
-    top:59px;
+    position: absolute;
+    top: 59px;
     bottom: 34px;
     right:551px;
-    width:272px
+    width:272px;  
   }
 
   .meny2{
-    position:absolute;
-    top:59px;
+    position: absolute;
+    top: 59px;
     bottom: 34px;
     right:298px;
     width: 141px;
   }
 
   .meny3{
-    position:absolute;
-    top:59px;
+    position: absolute;
+    top: 59px;
     bottom: 34px;
     right:62px;
     width: 128px;
 }
 
   .textHome{
-    position:relative;
+    position: relative;
     top: 288px;
     left: 708px;
     width: 504px;
@@ -87,7 +88,7 @@
     color: #FCFCFC; 
     font-family:  'Source Sans Pro', sans-serif; 
     font-weight: 400;
-    font-size: 68px;
+    font-size: 4.25rem;
     text-align: left;
     letter-spacing: 3.4px;
     opacity: 1;
@@ -96,7 +97,7 @@
   .raptorHome2{
     width: 1131px;
     height: 326px;
-    position:relative;
+    position: relative;
     top: 177px;
     left: 395px;
     }
@@ -108,12 +109,12 @@
       border-radius: 92px;
       opacity: 1;
       text-align: center;
-      font-family:  'Source Sans Pro', sans-serif; 
+      font-family: 'Source Sans Pro', sans-serif; 
       font-weight: 700;
-      font-size: 44px;
+      font-size: 2.75rem;
       letter-spacing: 0px;
       color: #141414;
-      position:absolute;
+      position: absolute;
       top: 818px;
       left: 694px;
     }
