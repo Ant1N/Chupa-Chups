@@ -166,23 +166,20 @@
   .signUpP {
     font-size: 2.18rem;
     color: #fcfcfc;
-    width: 44.9rem;
+    max-width: 44.9rem;
     height: 8.25rem;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     position: relative;
     left: 8.43rem;
-    max-width: 44.9rem;
   }
 
   .bicycle3 {
-    left: 61.56rem;
-    max-width: 58.3rem;
-    height: 41.25rem;
+    width: 50vw;
   }
 
   .bicycle2 {
-    max-width: 61.4rem;
+    max-width: 61.4rem; 
     height: 43.4rem;
   }
 
