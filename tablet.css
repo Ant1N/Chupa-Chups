@@ -100,12 +100,9 @@
   .signUpButton{
     width: 223px;
     height: 70px;
-    /* width:28%;
-    height:12.5%; */
     background: #6DF529 ;
     border-radius: 92px;
     opacity: 1;
-    text-align: center;
     font-family: 'Source Sans Pro', sans-serif; 
     font-weight: 700;
     font-size: 1.125rem;
@@ -118,6 +115,10 @@
 
   .signUpButton:hover{
     background-color: #4eae1e;
+  }
+
+  .homeWrapper{
+    text-align: center;
   }
   /*Sign Up*/
 
