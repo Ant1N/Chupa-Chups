@@ -6,28 +6,23 @@
 
   /*Sign Up*/
 
-  #bicycle3, #bicycle3 {
+  .bicycle3, .bicycle2 {
     display: none;
   }
 
-  #bicycle2 {
-    display: none;
-  }
-
-  .citatText {
+  .signUpWrapper {
     background-image: url("/images/bicycle3.png");
     background-size: cover; 
     height: 566px;
-    margin-top: 0;
   }
 
-  .text {
+  .textWrapper {
     position: relative;
-    left: 70px;
+    left: 90px;
   }
 
   .signUpH2 {
-    font-size: 42px;
+    font-size: 2.6rem;
     color: #fefefe;
     letter-spacing: 3px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -38,7 +33,7 @@
   }
 
   .signUpH3 {
-    font-size: 30px;
+    font-size: 1.8rem;
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
@@ -49,7 +44,7 @@
   }
 
   .signUpP2 {
-    font-size: 22px;
+    font-size: 1.3rem;
     color: #fcfcfc;
     width: 719px;
     height: 132px;
@@ -62,6 +57,8 @@
     background-image: url("/images/bicycle2.png");
     background-size: cover;
     height: 630px;
+    position: relative;
+    left: 30px;
   }
 
   .signUpText {
@@ -73,7 +70,7 @@
 
   .signUp {
     color: white;
-    font-size: 35px;
+    font-size: 2.2rem;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
   }
@@ -92,17 +89,8 @@
     bottom: 40px;
   }
 
-  .name {
-    font-size: 30px;
-    color: white;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
-    position: relative;
-    right: 290px;
-  }
-
-  .email {
-    font-size: 30px;
+  .name, .email {
+    font-size: 1.8rem;
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
@@ -130,7 +118,7 @@
     height: 64px;
     border-radius: 47px;
     border-style: none;
-    font-size: 30px;
+    font-size: 1.8rem;
     font-weight: bold;
     color: #141414;
     position: relative;
@@ -148,7 +136,7 @@
     height: 64px;
     border: 3px solid #67e826;
     border-radius: 47px;
-    font-size: 30px;
+    font-size: 1.8rem;
     color: #67e826;
     position: relative;
     position: relative;
