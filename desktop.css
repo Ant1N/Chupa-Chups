@@ -64,6 +64,8 @@
 
   body {
     background-color: black;
+    margin: 0;
+    padding: 0;
   }
 
   .signUpPage {
@@ -226,10 +228,7 @@
 
   /* Reset */
 
-  body {
-    margin: 0;
-    padding: 0;
-  }
+ 
 
   /* Hamburger Menu */
   #hamburger-icon,
