@@ -1,18 +1,18 @@
 @media screen and (max-width: 767px) {
-
   body {
     background-color: black;
   }
 
   /*Sign Up*/
 
-  .bicycle3, .bicycle2 {
+  .bicycle3,
+  .bicycle2 {
     display: none;
   }
 
   .signUpWrapper {
-    background-image: url("/images/bicycle3.png");
-    background-size: cover; 
+    background-image: url('/images/bicycle3.png');
+    background-size: cover;
     height: 339px;
   }
 
@@ -40,7 +40,7 @@
     font-weight: 400;
   }
 
-  .signUpP{
+  .signUpP {
     display: none;
   }
 
@@ -54,7 +54,7 @@
   }
 
   .signUpArea {
-    background-image: url("/images/bicycle2.png");
+    background-image: url('/images/bicycle2.png');
     background-size: cover;
     justify-content: center;
     height: 23rem;
@@ -87,7 +87,8 @@
     bottom: 2rem;
   }
 
-  .name, .email {
+  .name,
+  .email {
     font-size: 1.25rem;
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
@@ -96,7 +97,8 @@
     right: 10.5rem;
   }
 
-  .inputName, .inputEmail {
+  .inputName,
+  .inputEmail {
     width: 24rem;
     height: 2.8rem;
     position: relative;
@@ -137,7 +139,6 @@
   .clearBtn:hover {
     border: 3px solid #4eae1e;
   }
-
 
   /* Video Section */
   .videoPage {
@@ -222,7 +223,7 @@
 
   #hamburger-icon,
   #hamburger-menu-cross,
-  #expanded-men {
+  #expanded-menu {
     color: #6df529;
   }
 
