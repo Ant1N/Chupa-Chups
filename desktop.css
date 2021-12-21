@@ -127,13 +127,15 @@
 
   .signUpPage {
     display: flex;
-    margin: 0;
+    margin-top: 0;
+    /* width: 100vw; */
   }
 
   .textWrapper {
     position: relative;
-    top: 100px;
-    height: 646px;
+    /* top: 100px; */
+    min-height: 40.3rem;
+    
   }
 
   .signUpWrapper {
@@ -141,123 +143,123 @@
   }
 
   .signUpH2 {
-    font-size: 60px;
+    font-size: 3.7rem;
     color: #fefefe;
-    letter-spacing: 3px;
+    letter-spacing: 0.18rem;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     position: relative;
-    left: 135px;
-    width: 759px;
+    left: 8.4rem;
+    max-width: 47.4rem;
   }
 
   .signUpH3 {
-    font-size: 45px;
+    font-size: 2.8rem;
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     position: relative;
-    left: 135px;
-    width: 759px;
+    left: 8.4rem;
+    max-width: 47.4rem;
   }
 
   .signUpP {
-    font-size: 35px;
+    font-size: 2.18rem;
     color: #fcfcfc;
-    width: 719px;
-    height: 132px;
+    width: 44.9rem;
+    height: 8.25rem;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     position: relative;
-    left: 135px;
-    width: 719px;
+    left: 8.43rem;
+    max-width: 44.9rem;
   }
 
   .bicycle3 {
-    left: 985px;
-    width: 934px;
-    height: 660px;
+    left: 61.56rem;
+    max-width: 58.3rem;
+    height: 41.25rem;
   }
 
   .bicycle2 {
-    left: 0px;
-    width: 983px;
-    height: 695px;
+    max-width: 61.4rem;
+    height: 43.4rem;
   }
 
   .signUpText {
     display: flex;
     justify-content: center;
     position: relative;
-    left: 30px;
+    left: 1.8rem;
   }
 
   .signUp {
     color: white;
-    font-size: 35px;
+    font-size: 2.18rem;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     position: relative;
+    top: 4rem;
   }
 
   .signUpSvg {
-    width: 300px;
-    height: 140px;
+    max-width: 18.75rem;
+    height: 8.75rem;
     position: relative;
-    top: 50px;
-    right: 20px;
+    top: 3.1rem;
+    right: 1.25rem;
   }
 
   .inputField {
     text-align: center;
     position: relative;
-    bottom: 25px;
+    bottom: 1.5rem;
   }
 
   .name {
-    font-size: 35px;
+    font-size: 2.18rem;
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     position: relative;
-    right: 284px;
-    top: 30px;
+    right: 17.7rem;
+    top: 1.8rem;
   }
 
   .inputName {
-    width: 646px;
-    height: 75px;
+    width: 40.37rem;
+    height: 4.6rem;
   }
 
   .email {
-    font-size: 35px;
+    font-size: 2.18rem;
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     position: relative;
-    right: 284px;
-    bottom: 15px;
+    right: 17.7rem;
+    bottom: 0.9rem;
   }
 
   .inputEmail {
-    width: 646px;
-    height: 75px;
+    width: 40.37rem;
+    height: 4.6rem;
     position: relative;
-    bottom: 45px;
+    bottom: 2.8rem;
   }
 
   .sendBtn {
     background-color: #6df529;
-    width: 300px;
-    height: 64px;
-    border-radius: 47px;
+    width: 18.75rem;
+    height: 4rem;
+    border-radius: 2.9rem;
     border-style: none;
-    font-size: 30px;
+    font-size: 1.8rem;
     font-weight: bold;
     color: #141414;
     position: relative;
-    right: 24px;
-    top: 25px;
+    right: 1.5rem;
+    top: 1.5rem;
   }
 
   .sendBtn:hover {
@@ -266,20 +268,20 @@
 
   .clearBtn {
     background-color: black;
-    width: 300px;
-    height: 64px;
-    border: 3px solid #67e826;
-    border-radius: 47px;
-    font-size: 30px;
+    width: 18.7rem;
+    height: 4rem;
+    border: 0.18rem solid #67e826;
+    border-radius: 2.9rem;
+    font-size: 1.8rem;
     color: #67e826;
     position: relative;
     position: relative;
-    left: 24px;
-    top: 25px;
+    left: 1.5rem;
+    top: 1.5rem;
   }
 
   .clearBtn:hover {
-    border: 3px solid #4eae1e;
+    border: 0.18rem solid #4eae1e;
   }
 
   /* Video Section */
