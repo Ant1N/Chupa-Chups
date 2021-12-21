@@ -141,8 +141,6 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     position: relative;
-    text-align: center;
-    top: 60px;
   }
 
   .signUpSvg {
@@ -198,6 +196,7 @@
     border-radius: 47px;
     border-style: none;
     font-size: 30px;
+    font-weight: bold;
     color: #141414;
     position: relative;
     right: 24px;
@@ -227,8 +226,6 @@
   }
 
   /* Reset */
-
- 
 
   /* Hamburger Menu */
   #hamburger-icon,
