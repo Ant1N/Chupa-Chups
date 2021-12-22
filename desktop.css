@@ -1,23 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
 
 @media screen and (min-width: 1024px) {
-  /* Video Section */
-  .videoPage {
-    text-align: center;
-    background-color: black;
-    color: white;
-    font-family: 'Source Sans Pro';
-    font-weight: 100;
-  }
-  .videoPage h1 {
-    padding-top: 2rem;
-    font-family: calder-dark-grit-shadow, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 102px;
-    color: #f01f14;
-  }
-
   body {
     background-color: black;
   }
