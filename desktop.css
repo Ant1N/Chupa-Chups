@@ -22,7 +22,6 @@
     position: relative;
     top: 159px;
     left: 0px;
-    width: 1919px;
     height: 136px;
     background: transparent linear-gradient(180deg, #000000 0%, #00000000 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -89,14 +88,12 @@
   .textHome{
     position: relative;
     top: 288px;
-
     width: 504px;
     height: 86px;
     color: #FCFCFC; 
     font-family:  'Source Sans Pro', sans-serif; 
     font-weight: 400;
     font-size: 4.25rem;
-    text-align: left;
     letter-spacing: 3.4px;
     opacity: 1;
   }
@@ -106,8 +103,7 @@
     height: 326px;
     position: relative;
     top: 177px;
-
-    }
+  }
   
   .signUpButton{
     position: absolute;
