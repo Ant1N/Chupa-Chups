@@ -1,4 +1,144 @@
 @media screen and (max-width: 767px) {
+  body {
+    background-color: black;
+  }
+
+  /*Sign Up*/
+
+  .bicycle3,
+  .bicycle2 {
+    display: none;
+  }
+
+  .signUpWrapper {
+    background-image: url('/images/bicycle3.png');
+    background-size: cover;
+    height: 339px;
+  }
+
+  .textWrapper {
+    width: 80%;
+    padding-left: 10%;
+    padding-top: 0.5rem;
+  }
+
+  .signUpH2 {
+    font-size: 1.5rem;
+    color: #fefefe;
+    letter-spacing: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    position: relative;
+    opacity: 0.75;
+    max-width: 20rem;
+  }
+
+  .signUpH3 {
+    font-size: 0.9rem;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+  }
+
+  .signUpP {
+    display: none;
+  }
+
+  .signUpP2 {
+    font-size: 0.9rem;
+    color: #fcfcfc;
+    height: 132px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    max-width: 25rem;
+  }
+
+  .signUpArea {
+    background-image: url('/images/bicycle2.png');
+    background-size: cover;
+    justify-content: center;
+    height: 23rem;
+    position: relative;
+    margin-top: 4rem;
+  }
+
+  .signUpText {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 2rem;
+  }
+
+  .signUp {
+    color: white;
+    font-size: 1.25rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+  }
+
+  .signUpSvg {
+    width: 10rem;
+    position: relative;
+  }
+
+  .inputField {
+    position: relative;
+    text-align: center;
+    bottom: 2rem;
+  }
+
+  .name,
+  .email {
+    font-size: 1.25rem;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    position: relative;
+    right: 10.5rem;
+  }
+
+  .inputName,
+  .inputEmail {
+    width: 24rem;
+    height: 2.8rem;
+    position: relative;
+  }
+
+  .sendBtn {
+    background-color: #6df529;
+    width: 11.5rem;
+    height: 2.5rem;
+    border-radius: 47px;
+    border-style: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #141414;
+    position: relative;
+    right: 0.6rem;
+    top: 2.5rem;
+  }
+
+  .sendBtn:hover {
+    background-color: #4eae1e;
+  }
+
+  .clearBtn {
+    background-color: black;
+    width: 11.5rem;
+    height: 2.5rem;
+    border: 3px solid #67e826;
+    border-radius: 47px;
+    font-size: 1.1rem;
+    color: #67e826;
+    position: relative;
+    position: relative;
+    left: 0.6rem;
+    top: 2.5rem;
+  }
+
+  .clearBtn:hover {
+    border: 3px solid #4eae1e;
+  }
 
   /* Video Section */
   .videoPage {
@@ -61,6 +201,7 @@
   .youtube-video {
     min-height: 234px;
     min-width: 350px;
+  }
 
   /* Reset */
 
@@ -82,7 +223,7 @@
 
   #hamburger-icon,
   #hamburger-menu-cross,
-  #expanded-men {
+  #expanded-menu {
     color: #6df529;
   }
 
@@ -159,6 +300,5 @@
 
   .disappear {
     visibility: hidden;
-
   }
 }

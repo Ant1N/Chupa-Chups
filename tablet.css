@@ -1,5 +1,155 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
+  body {
+    background-color: black;
+  }
+
+  /*Sign Up*/
+
+  .bicycle3, .bicycle2 {
+    display: none;
+  }
+
+  .signUpWrapper {
+    background-image: url("/images/bicycle3.png");
+    background-size: cover; 
+    height: 566px;
+  }
+
+  .textWrapper {
+    position: relative;
+    left: 90px;
+  }
+
+  .signUpH2 {
+    font-size: 2.6rem;
+    color: #fefefe;
+    letter-spacing: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    position: relative;
+    opacity: 0.75;
+    width: 500px;
+  }
+
+  .signUpH3 {
+    font-size: 1.8rem;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+  }
+
+  .signUpP{
+    display: none;
+  }
+
+  .signUpP2 {
+    font-size: 1.3rem;
+    color: #fcfcfc;
+    width: 719px;
+    height: 132px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    max-width: 630px;
+  }
+
+  .signUpArea {
+    background-image: url("/images/bicycle2.png");
+    background-size: cover;
+    height: 630px;
+    position: relative;
+  }
+
+  .signUpText {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 30px;
+  }
+
+  .signUp {
+    color: white;
+    font-size: 2.2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+  }
+
+  .signUpSvg {
+    width: 300px;
+    height: 140px;
+    position: relative;
+    bottom: 10px;
+    right: 20px;
+  }
+
+  .inputField {
+    position: relative;
+    text-align: center;
+    bottom: 40px;
+  }
+
+  .name, .email {
+    font-size: 1.8rem;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    position: relative;
+    right: 290px;
+  }
+
+  .inputName {
+    width: 646px;
+    height: 75px;
+    position: relative;
+    bottom: 25px;
+  }
+
+  .inputEmail {
+    width: 646px;
+    height: 75px;
+    position: relative;
+    bottom: 25px;
+  }
+
+  .sendBtn {
+    background-color: #6df529;
+    width: 300px;
+    height: 64px;
+    border-radius: 47px;
+    border-style: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #141414;
+    position: relative;
+    right: 24px;
+    top: 50px;
+  }
+
+  .sendBtn:hover {
+    background-color: #4eae1e;
+  }
+
+  .clearBtn {
+    background-color: black;
+    width: 300px;
+    height: 64px;
+    border: 3px solid #67e826;
+    border-radius: 47px;
+    font-size: 1.8rem;
+    color: #67e826;
+    position: relative;
+    position: relative;
+    left: 24px;
+    top: 50px;
+  }
+
+  .clearBtn:hover {
+    border: 3px solid #4eae1e;
+  }
+
+
+
+  /* Video Section */
   .videoPage {
     text-align: center;
     background-color: black;
@@ -26,7 +176,6 @@
   .videoPage h3 {
     font-size: 27px;
   }
-
 
   /* Reset */
 
@@ -62,7 +211,6 @@
     padding: 0rem;
     color: black;
     margin-bottom: 1rem;
-
     font-size: 35px;
   }
 
@@ -77,9 +225,6 @@
   .youtube-video {
     min-height: 424px;
     min-width: 636px;
-  }
-
-
   }
 
   .video-frame {
