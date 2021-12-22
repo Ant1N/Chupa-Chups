@@ -3,16 +3,17 @@
   body {
     background-color: black;
   }
+
   /*Home page*/
   .homePage1{
     margin: 0;
     position: relative;
     top: 0px;
     left: 0px;
-    width:800px;
+    width:100vw;
     height: 564px;
     background-image: url(images/bicycle1.jpg);
-    background-position: center;
+    background-position: center; 
     background-size: cover; 
   }
 
@@ -26,6 +27,7 @@
     display: flex;
     justify-content: space-between;
   }
+
   .raptorHome1{
     position: absolute;
     top: 7px;
@@ -36,7 +38,6 @@
   .homePage1 ul li{
     display: inline;
     height: 24px;
-    text-align: left;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     letter-spacing: 0.0425rem;
@@ -73,18 +74,23 @@
     right:42px;
     width: 73px;
     height: 24px;
-}
+  }
+
+  .homeWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
   .textHome{
     position: absolute;
     top: 185px;
-    left: 275px;
     width: 281px;
     color: #FCFCFC; 
     font-family:  'Source Sans Pro', sans-serif; 
     font-weight: 400;
     font-size: 2.375rem;
-    text-align: left;
     letter-spacing: 0.125rem;
     opacity: 1;
   }
@@ -92,12 +98,13 @@
   .raptorHome2{
     position:absolute;
     top: 240px;
-    left: 140px;
     width: 550px;
     height: 136px;
   }
 
   .signUpButton{
+    position: absolute;
+    top: 350px;
     width: 223px;
     height: 70px;
     background: #6DF529 ;
@@ -108,9 +115,6 @@
     font-size: 1.125rem;
     letter-spacing: 0px;
     color: #141414;
-    position: absolute;
-    top: 350px;
-    left: 289px;
   }
 
   .signUpButton:hover{
@@ -120,6 +124,7 @@
   .homeWrapper{
     text-align: center;
   }
+
   /*Sign Up*/
 
   .bicycle3, .bicycle2 {

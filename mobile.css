@@ -72,13 +72,12 @@
     font-size: 0.69rem;
     letter-spacing: 0px;
     color: #141414;
-
-
   }
 
   .signUpButton:hover{
     background-color: #4eae1e;
   }
+  
   /* Video Section */
   .videoPage {
     text-align: center;
