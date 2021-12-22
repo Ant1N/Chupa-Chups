@@ -43,7 +43,7 @@
 
   .textHome{
     position: absolute;
-    top: 112px;
+    top: 92px;
     height: 28px;
     color: #FCFCFC; 
     font-family:  'Source Sans Pro', sans-serif; 
@@ -55,14 +55,13 @@
 
   .raptorHome2{
     position:absolute;
-    top: 135px; 
-    width: 239px;
+    top: 145px; 
     height: 69px;
   }
 
   .signUpButton{
     position: absolute;
-    top: 250px;
+    top: 230px;
     width: 102px;
     height: 40px;
     background: #6DF529 ;
