@@ -291,16 +291,16 @@
     font-family: calder-dark-grit-shadow, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 102px;
+    font-size: 6.38rem;
     color: #f01f14;
   }
 
   .videoPage h2 {
-    font-size: 54px;
+    font-size: 3.38rem;
   }
 
   .videoPage h3 {
-    font-size: 45px;
+    font-size: 2.81rem;
   }
 
   .videoPage h2,
@@ -311,7 +311,7 @@
 
   h3.under-video {
     font-weight: 200;
-    font-size: 44px;
+    font-size: 2.75rem;
     padding: 0rem;
     color: white;
     margin-bottom: 1rem;
@@ -322,7 +322,7 @@
     font-family: calder-dark-grit-shadow, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
+    font-size: 3.13rem;
     color: #f01f14;
   }
   .video-frame {
@@ -333,8 +333,8 @@
   }
 
   .youtube-video {
-    min-height: 608px;
-    min-width: 912px;
+    min-height: 38rem;
+    min-width: 57rem;
   }
 
   /* Hamburger Menu */
