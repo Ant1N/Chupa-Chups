@@ -185,9 +185,8 @@
 
   .signUpText {
     display: flex;
-    justify-content: center;
     position: relative;
-    left: 1.8rem;
+    left: 8.2rem;
   }
 
   .signUp {
@@ -208,9 +207,10 @@
   }
 
   .inputField {
-    text-align: center;
     position: relative;
     bottom: 1.5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 
   .name {
@@ -219,13 +219,12 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     position: relative;
-    right: 17.7rem;
     top: 1.8rem;
   }
 
   .inputName {
-    width: 40.37rem;
-    height: 4.6rem;
+     width: 40.37rem;
+     height: 4.6rem;
   }
 
   .email {
@@ -234,7 +233,6 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     position: relative;
-    right: 17.7rem;
     bottom: 0.9rem;
   }
 
@@ -255,7 +253,6 @@
     font-weight: bold;
     color: #141414;
     position: relative;
-    right: 1.5rem;
     top: 1.5rem;
   }
 
@@ -273,7 +270,7 @@
     color: #67e826;
     position: relative;
     position: relative;
-    left: 1.5rem;
+    left: 3.2rem;
     top: 1.5rem;
   }
 
