@@ -77,12 +77,19 @@
     bottom: 34px;
     right:62px;
     width: 128px;
-}
+  }
+
+  .homeWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
   .textHome{
     position: relative;
     top: 288px;
-    left: 708px;
+
     width: 504px;
     height: 86px;
     color: #FCFCFC; 
@@ -99,24 +106,22 @@
     height: 326px;
     position: relative;
     top: 177px;
-    left: 395px;
+
     }
   
   .signUpButton{
-      width: 532px;
-      height: 136px;
-      background: #6DF529 ;
-      border-radius: 92px;
-      opacity: 1;
-      text-align: center;
-      font-family: 'Source Sans Pro', sans-serif; 
-      font-weight: 700;
-      font-size: 2.75rem;
-      letter-spacing: 0px;
-      color: #141414;
-      position: absolute;
-      top: 818px;
-      left: 694px;
+    position: absolute;
+    top: 818px;
+    width: 532px;
+    height: 136px;
+    background: #6DF529 ;
+    border-radius: 92px;
+    opacity: 1;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-weight: 700;
+    font-size: 2.75rem;
+    letter-spacing: 0px;
+    color: #141414;
     }
 
   .signUpButton:hover{
