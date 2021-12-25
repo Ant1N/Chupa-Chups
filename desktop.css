@@ -11,7 +11,7 @@
     position: relative;
     top: -159px;
     left: 0px;
-    width: 1919px;
+    width: 100vw;
     height: 1356px;
     background-image: url(images/bicycle1.jpg);
     background-position: center;
@@ -22,7 +22,6 @@
     position: relative;
     top: 159px;
     left: 0px;
-    width: 1919px;
     height: 136px;
     background: transparent linear-gradient(180deg, #000000 0%, #00000000 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -77,19 +76,24 @@
     bottom: 34px;
     right:62px;
     width: 128px;
-}
+  }
+
+  .homeWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
   .textHome{
     position: relative;
     top: 288px;
-    left: 708px;
     width: 504px;
     height: 86px;
     color: #FCFCFC; 
     font-family:  'Source Sans Pro', sans-serif; 
     font-weight: 400;
     font-size: 4.25rem;
-    text-align: left;
     letter-spacing: 3.4px;
     opacity: 1;
   }
@@ -99,24 +103,21 @@
     height: 326px;
     position: relative;
     top: 177px;
-    left: 395px;
-    }
+  }
   
   .signUpButton{
-      width: 532px;
-      height: 136px;
-      background: #6DF529 ;
-      border-radius: 92px;
-      opacity: 1;
-      text-align: center;
-      font-family: 'Source Sans Pro', sans-serif; 
-      font-weight: 700;
-      font-size: 2.75rem;
-      letter-spacing: 0px;
-      color: #141414;
-      position: absolute;
-      top: 818px;
-      left: 694px;
+    position: absolute;
+    top: 818px;
+    width: 532px;
+    height: 136px;
+    background: #6DF529 ;
+    border-radius: 92px;
+    opacity: 1;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-weight: 700;
+    font-size: 2.75rem;
+    letter-spacing: 0px;
+    color: #141414;
     }
 
   .signUpButton:hover{
