@@ -50,7 +50,7 @@
     border-bottom: 3px solid white;
   }
 
-  .meny1{
+  .menu1{
     position: absolute;
     top: 23px;
     bottom: 89px;
@@ -59,7 +59,7 @@
     height: 24px;
   }
 
-  .meny2{
+  .menu2{
     position: absolute;
     top: 23px;
     bottom: 89px;
@@ -68,7 +68,7 @@
     height: 24px;
   }
 
-  .meny3{
+  .menu3{
     position: absolute;
     top: 23px;
     right:42px;
