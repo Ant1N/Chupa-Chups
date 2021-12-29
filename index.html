@@ -21,6 +21,18 @@
     <title>Raptor</title>
   </head>
   <body>
+    <div id="hamburger-menu-expanded" class="disappear">
+      <i id="hamburger-menu-cross" class="fas fa-times"></i>
+      <nav id="expanded-menu">
+        <ul>
+          <li>
+            <a href="#">The Raptor story</a>
+          </li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="homePage1">
       <header class="header">
         <img
@@ -33,6 +45,7 @@
           <li class="menu2">About us</li>
           <li class="menu3">Contact</li>
         </ul>
+        <i id="hamburger-icon" class="fas fa-bars"></i>
       </header>
       <div class="homeWrapper">
         <p class="textHome">Introducing the</p>
@@ -127,37 +140,6 @@
       <img src="" alt="" />
     </footer>
 
-    <div id="hamburger-menu-expanded" class="disappear">
-      <i id="hamburger-menu-cross" class="fas fa-times"></i>
-      <nav id="expanded-menu">
-        <ul>
-          <li>
-            <a href="#">The Raptor story</a>
-          </li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="wrapper">
-      <div class="homePage">
-        <header>
-          <img src="" alt="" />
-          <nav id="main-menu">
-            <ul>
-              <li><a>The Raptor story</a></li>
-              <li><a>About Us</a></li>
-              <li><a>Contact</a></li>
-            </ul>
-          </nav>
-          <i id="hamburger-icon" class="fas fa-bars"></i>
-        </header>
-        <h1></h1>
-        <img src="" alt="" />
-        <button></button>
-      </div>
-    </div>
-
     <script>
       // Hamburger Menu
       const icon = document.getElementById('hamburger-icon');
@@ -167,19 +149,17 @@
       const hamburgerMenuCross = document.getElementById(
         'hamburger-menu-cross'
       );
-      const wrapper = document.querySelector('.wrapper');
-      const close = document.querySelector('.close');
 
-      // when you click the hamburger menue
+      // when you click the hamburger menu
       icon.addEventListener('click', () => {
-        wrapper.classList.toggle('disappear');
+        icon.classList.toggle('disappear');
         hamburgerMenuExpanded.classList.remove('disappear');
         hamburgerMenuCross.classList.remove('disappear');
       });
 
       // when you click the cross to close
       hamburgerMenuCross.addEventListener('click', () => {
-        wrapper.classList.remove('disappear');
+        icon.classList.remove('disappear');
         hamburgerMenuExpanded.classList.toggle('disappear');
       });
     </script>
