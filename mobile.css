@@ -234,7 +234,7 @@
     font-family: calder-dark-grit-shadow, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 39px;
+    font-size: 2.44rem;
     color: #f01f14;
   }
 
@@ -247,11 +247,11 @@
   }
 
   .videoPage h2 {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .videoPage h3 {
-    font-size: 17px;
+    font-size: 1.06rem;
   }
 
   h3.under-video {
@@ -259,14 +259,14 @@
     padding: 0rem;
     color: black;
     margin-bottom: 1rem;
-    font-size: 19px;
+    font-size: 1.19rem;
   }
 
   h3.under-video .raptor {
     font-family: calder-dark-grit-shadow, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 17px;
+    font-size: 1.06rem;
     color: #f02016;
   }
 
@@ -279,8 +279,8 @@
     -webkit-box-shadow: 4px 3px 8px 1px #68a583;
   }
   .youtube-video {
-    min-height: 234px;
-    min-width: 350px;
+    min-height: 14.63rem;
+    min-width: 21.88rem;
   }
 
   /* Reset */
@@ -308,7 +308,7 @@
   }
 
   #hamburger-icon {
-    font-size: 40px;
+    font-size: 2.5rem;
     position: fixed;
     top: 11px;
     right: 16px;
@@ -316,7 +316,7 @@
   }
 
   #hamburger-menu-cross {
-    font-size: 40px;
+    font-size: 2.5rem;
     position: fixed;
     top: 11px;
     right: 16px;
@@ -359,9 +359,8 @@
   .wrapper,
   #expanded-menu {
     font-family: 'Source Sans Pro';
-    font-size: 25px;
+    font-size: 1.56rem;
     font-weight: 400;
-
     color: #6df529;
   }
 

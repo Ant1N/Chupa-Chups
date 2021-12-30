@@ -2,11 +2,11 @@
 
 @media screen and (min-width: 1024px) {
   body {
-    background-color: black; 
- }
+    background-color: black;
+  }
 
   /*home page*/
-  .homePage1{
+  .homePage1 {
     margin: 0;
     position: relative;
     top: -159px;
@@ -15,66 +15,67 @@
     height: 1356px;
     background-image: url(images/bicycle1.jpg);
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
   }
 
-  .homePage1 header{
+  .homePage1 header {
     position: relative;
     top: 159px;
     left: 0px;
     height: 136px;
-    background: transparent linear-gradient(180deg, #000000 0%, #00000000 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #000000 0%, #00000000 100%)
+      0% 0% no-repeat padding-box;
     opacity: 1;
     display: flex;
     justify-content: space-between;
   }
 
-  .raptorHome1{
+  .raptorHome1 {
     position: absolute;
     top: 40px;
-    left: 53px;  
+    left: 53px;
     width: 274px;
     height: 80px;
   }
 
-  .homePage1 ul li{
+  .homePage1 ul li {
     display: inline;
     height: 43px;
     text-align: left;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
-    font-size: 1.875rem;;
+    font-size: 1.875rem;
     letter-spacing: 0.075rem;
-    color: #6DF529;
+    color: #6df529;
     opacity: 1;
     text-transform: uppercase;
   }
 
-  .homePage1 ul li:hover{
+  .homePage1 ul li:hover {
     border-bottom: 3px solid white;
   }
 
-  .menu1{
+  .menu1 {
     position: absolute;
     top: 59px;
     bottom: 34px;
-    right:551px;
-    width:272px;  
+    right: 551px;
+    width: 272px;
   }
 
-  .menu2{
+  .menu2 {
     position: absolute;
     top: 59px;
     bottom: 34px;
-    right:298px;
+    right: 298px;
     width: 141px;
   }
 
-  .menu3{
+  .menu3 {
     position: absolute;
     top: 59px;
     bottom: 34px;
-    right:62px;
+    right: 62px;
     width: 128px;
   }
 
@@ -85,20 +86,20 @@
     align-items: center;
   }
 
-  .textHome{
+  .textHome {
     position: relative;
     top: 288px;
     width: 504px;
     height: 86px;
-    color: #FCFCFC; 
-    font-family:  'Source Sans Pro', sans-serif; 
+    color: #fcfcfc;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 4.25rem;
     letter-spacing: 3.4px;
     opacity: 1;
   }
-  
-  .raptorHome2{
+
+  .raptorHome2 {
     width: 1131px;
     height: 326px;
     position: relative;
@@ -118,7 +119,7 @@
     font-size: 2.75rem;
     letter-spacing: 0px;
     color: #141414;
-    }
+  }
 
   .signUpButton:hover{
     background-color: #4eae1e;
@@ -136,7 +137,6 @@
     position: relative;
     /* top: 100px; */
     min-height: 40.3rem;
-    
   }
 
   .signUpWrapper {
@@ -180,7 +180,7 @@
   }
 
   .bicycle2 {
-    max-width: 61.4rem; 
+    max-width: 61.4rem;
     height: 43.4rem;
   }
 
@@ -224,8 +224,8 @@
   }
 
   .inputName {
-     width: 40.37rem;
-     height: 4.6rem;
+    width: 40.37rem;
+    height: 4.6rem;
   }
 
   .email {
@@ -292,16 +292,16 @@
     font-family: calder-dark-grit-shadow, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 102px;
+    font-size: 6.38rem;
     color: #f01f14;
   }
 
   .videoPage h2 {
-    font-size: 54px;
+    font-size: 3.38rem;
   }
 
   .videoPage h3 {
-    font-size: 45px;
+    font-size: 2.81rem;
   }
 
   .videoPage h2,
@@ -312,7 +312,7 @@
 
   h3.under-video {
     font-weight: 200;
-    font-size: 44px;
+    font-size: 2.75rem;
     padding: 0rem;
     color: white;
     margin-bottom: 1rem;
@@ -323,7 +323,7 @@
     font-family: calder-dark-grit-shadow, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
+    font-size: 3.13rem;
     color: #f01f14;
   }
   .video-frame {
@@ -334,11 +334,9 @@
   }
 
   .youtube-video {
-    min-height: 608px;
-    min-width: 912px;
+    min-height: 38rem;
+    min-width: 57rem;
   }
-
-  /* Reset */
 
   /* Hamburger Menu */
   #hamburger-icon,
