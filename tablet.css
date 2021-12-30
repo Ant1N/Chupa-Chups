@@ -1,5 +1,4 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-
   body {
     background-color: black;
   }
@@ -126,14 +125,14 @@
   }
 
   /*Sign Up*/
-
-  .bicycle3, .bicycle2 {
+  .bicycle3,
+  .bicycle2 {
     display: none;
   }
 
   .signUpWrapper {
-    background-image: url("/images/bicycle3.png");
-    background-size: cover; 
+    background-image: url('/images/bicycle3.png');
+    background-size: cover;
     height: 566px;
   }
 
@@ -160,7 +159,7 @@
     font-weight: 400;
   }
 
-  .signUpP{
+  .signUpP {
     display: none;
   }
 
@@ -175,7 +174,7 @@
   }
 
   .signUpArea {
-    background-image: url("/images/bicycle2.png");
+    background-image: url('/images/bicycle2.png');
     background-size: cover;
     height: 630px;
     position: relative;
@@ -209,7 +208,8 @@
     bottom: 40px;
   }
 
-  .name, .email {
+  .name,
+  .email {
     font-size: 1.8rem;
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
@@ -268,8 +268,6 @@
     border: 3px solid #4eae1e;
   }
 
-
-
   /* Video Section */
   .videoPage {
     text-align: center;
@@ -283,7 +281,7 @@
     padding-top: 2rem;
     font-family: calder-dark-grit-shadow;
     color: #f01f14;
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 100;
   }
   .videoPage h2,
@@ -291,11 +289,11 @@
     font-weight: 100;
   }
   .videoPage h2 {
-    font-size: 33px;
+    font-size: 2rem;
   }
 
   .videoPage h3 {
-    font-size: 27px;
+    font-size: 1.7rem;
   }
 
   /* Reset */
@@ -332,20 +330,20 @@
     padding: 0rem;
     color: black;
     margin-bottom: 1rem;
-    font-size: 35px;
+    font-size: 2.2rem;
   }
 
   h3.under-video .raptor {
     font-family: calder-dark-grit-shadow, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 32px;
+    font-size: 2rem;
     color: #f02016;
   }
 
   .youtube-video {
-    min-height: 424px;
-    min-width: 636px;
+    min-height: 26.5rem;
+    min-width: 40rem;
   }
 
   .video-frame {
