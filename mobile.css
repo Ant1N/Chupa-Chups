@@ -141,84 +141,85 @@
   }
 
   /*Home page*/
-  .homePage1{
+  .homePage1 {
     margin: 0;
     position: relative;
     top: 0px;
     left: 0px;
-    width:480;
+    width: 480;
     height: 339px;
     background-image: url(images/bicycle1.jpg);
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
   }
 
-  .homePage1 header{
+  .homePage1 header {
     position: relative;
     top: 0px;
     left: 0px;
     height: 52px;
-    background: transparent linear-gradient(180deg, #000000 0%, #00000000 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #000000 0%, #00000000 100%)
+      0% 0% no-repeat padding-box;
     opacity: 1;
     display: flex;
     justify-content: space-between;
   }
 
-  .raptorHome1{
+  .raptorHome1 {
     position: absolute;
     top: 8px;
-    left: 16px;  
+    left: 16px;
     height: 27px;
   }
 
-  .homePage1 ul li{
+  .homePage1 ul li {
     display: none;
   }
 
-  .homeWrapper{
+  .homeWrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .textHome{
+  .textHome {
     position: absolute;
     top: 92px;
     height: 28px;
-    color: #FCFCFC; 
-    font-family:  'Source Sans Pro', sans-serif; 
+    color: #fcfcfc;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 1.375rem;
     letter-spacing: 0.07rem;
     opacity: 1;
   }
 
-  .raptorHome2{
-    position:absolute;
-    top: 145px; 
+  .raptorHome2 {
+    position: absolute;
+    top: 145px;
     height: 69px;
   }
 
-  .signUpButton{
+  .signUpButton {
     position: absolute;
     top: 230px;
     width: 102px;
     height: 40px;
-    background: #6DF529 ;
+    background: #6df529;
     border-radius: 92px;
     opacity: 1;
-    font-family: 'Source Sans Pro', sans-serif; 
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
     font-size: 0.69rem;
     letter-spacing: 0px;
     color: #141414;
   }
 
-  .signUpButton:hover{
+  .signUpButton:hover {
     background-color: #4eae1e;
   }
-  
+
   /* Video Section */
   .videoPage {
     text-align: center;
@@ -256,7 +257,7 @@
   h3.under-video {
     font-weight: 800;
     padding: 0rem;
-    color: rgb(216, 202, 202);
+    color: black;
     margin-bottom: 1rem;
     font-size: 1.19rem;
   }
