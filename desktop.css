@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
 @media screen and (min-width: 1024px) {
   body {
     background-color: black;
@@ -354,4 +354,63 @@
     visibility: hidden;
     height: 0px;
   }
+}
+
+.cookies {
+  background: #FCFCFC;
+  opacity: 0.75;
+  bottom: 18rem;
+  width: 100%;
+  height: 15.625rem;
+  
+}
+.cookies h3 {
+line-height: 15.625rem;
+  text-align: center;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 55px;
+  font-weight: 100;
+}
+.cookiesbutton {
+  height: 3.375rem;
+  width: 26.5rem;
+  margin-right: 5.813rem;
+  float: right;
+  border-radius: 46px;
+  margin-top: 6rem;
+  background: #6DF529F2;
+  color: #141414;
+  
+}
+.cookiesbutton p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  margin: 0;
+  text-align: center;
+}
+.cookiesbutton:hover {
+  background: white;
+  color: black;
+}
+
+footer {
+  height: 300px;
+  background: transparent url('images/bicycle4.jpg') 50% 90% ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer img {
+  height: 6.75rem;
+  width: 6.75rem;
+  margin-right: 
+  3.438rem;
+}
+
+.footerRaptor{
+  float: right;
+  height: 5rem;
+  width: 17.125rem;
 }
